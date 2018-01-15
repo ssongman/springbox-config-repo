@@ -1,4 +1,4 @@
-greeting: Howdy %s!
+greeting: Hello %s from GitHub!
 
 security:
   basic:
