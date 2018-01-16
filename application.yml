@@ -1,4 +1,5 @@
-greeting: Hello %s from GitHub!
+#greeting: Hello %s from GitHub!
+greeting: Howdy %s!
 
 security:
   basic:
@@ -24,4 +25,3 @@ eureka:
   instance:
     hostname: ${vcap.application.uris[0]}
     nonSecurePort: 80
-
