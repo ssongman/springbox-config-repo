@@ -15,15 +15,18 @@ eureka:
     serviceUrl:
       defaultZone: ${vcap.services.hs-service-registry.credentials.uri:http://127.0.0.1:8761}/eureka/
 
+---
 #greeting: Hello %s from GitHub!
 spring:
   profiles: dev
 greeting: Howdy %s! from dev
 
+---
 spring:
   profiles: stage
 greeting: Howdy %s! from stage
 
+---
 spring:
   profiles: prod
 greeting: Howdy %s! from prod
