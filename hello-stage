@@ -1,0 +1,4 @@
+---
+spring:
+  profiles: stage
+greeting: Howdy %s! from stage
