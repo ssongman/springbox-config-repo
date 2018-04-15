@@ -1,0 +1,4 @@
+---
+spring:
+  profiles: prod
+greeting: Howdy %s! from prod
