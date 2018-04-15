@@ -1,4 +1,2 @@
 ---
-#spring:
-#  profiles: dev
 greeting: Howdy %s! from dev
